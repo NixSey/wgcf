@@ -13,13 +13,13 @@ import (
 
 const (
 	ApiUrl     = "https://api.cloudflareclient.com"
-	ApiVersion = "v0a1922"
+	ApiVersion = "v0a2405"
 )
 
 var (
 	DefaultHeaders = map[string]string{
 		"User-Agent":        "okhttp/3.12.1",
-		"CF-Client-Version": "a-6.3-1922",
+		"CF-Client-Version": "a-6.15-2405",
 	}
 	DefaultTransport = &http.Transport{
 		// Match app's TLS config or API will reject us with code 403 error 1020
